@@ -22,13 +22,19 @@
     }
     /* Gradient text for heading */
     .gradient-text {
-      font-size: 2.2rem;
+      font-size: 2.5rem;
       font-weight: bold;
       background: linear-gradient(90deg, #ff6a00, #00c853, #2979ff);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
       text-fill-color: transparent;
+    }
+    .tagline {
+      font-size: 1.2rem;
+      font-weight: 500;
+      margin-top: 10px;
+      color: #475569;
     }
     p {
       font-size: 1.1rem;
@@ -53,11 +59,19 @@
     }
     .cta button:hover {
       opacity: 0.85;
+      transform: scale(1.05);
     }
     section {
-      max-width: 700px;
+      max-width: 750px;
       margin: 0 auto;
       padding: 40px 0;
+    }
+    ul {
+      text-align: left;
+      max-width: 500px;
+      margin: 20px auto;
+      padding-left: 20px;
+      line-height: 1.6;
     }
     footer {
       margin-top: 40px;
@@ -82,21 +96,33 @@
 </head>
 <body>
   <header>
-    
-   <h1 class="gradient-text">Baintcomputer AIOPs OS</h1>
-    <p>The AI-native operating system of the future. Privacy-first. Smarter. Built for humans.</p>
+   
+    <h1 class="gradient-text">Baintcomputer AIOPs OS</h1>
+    <p class="tagline">The AI-native operating system that thinks, adapts, and evolves with you.</p>
+    <p>Privacy-first. Smarter. Built for humans, not corporations.</p>
     <div class="cta">
-      <button onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSdQQISGj_jVOm57TOjAmq0RVe4VtARJ_Pwh7G8Ey92jg9sdvA/viewform'">Apply / Join Waitlist</button>
-      <button onclick="document.getElementById('learn').scrollIntoView({behavior:'smooth'})">Learn More</button>
+      <button onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSdQQISGj_jVOm57TOjAmq0RVe4VtARJ_Pwh7G8Ey92jg9sdvA/viewform'">🚀 Join the Waitlist Today</button>
+      <button onclick="document.getElementById('learn').scrollIntoView({behavior:'smooth'})">✨ Learn More</button>
     </div>
   </header>
 
   <section id="learn">
-    <h2>About Baintcomputer AIOPs</h2>
+    <h2>Why Baintcomputer AIOPs?</h2>
     <p>
-      Baintcomputer AIOPs OS is being built in public to reimagine computing.  
-      It’s not just another system — it’s an ecosystem that learns, adapts, and evolves with you.  
-      We’re combining AI + human-centered design to create the next leap in personal computing.  
+      We’re building the future of computing — open, human-centered, and powered by adaptive AI.  
+      Forget outdated operating systems. This is an OS that grows with you.
+    </p>
+
+    <ul>
+      <strong>Privacy-first</strong> — your data stays yours.</li>
+      <strong>AI-native</strong> — an OS that learns and evolves in real time.</li>
+      <strong>Built in Public</strong> — transparency and community at the core.</li>
+      <strong>Human-Centered</strong> — technology designed around people, not profit.</li>
+    </ul>
+
+    <p>
+      By joining early, you’re not just signing up for another product —  
+      you’re becoming part of a movement that redefines how humans and machines work together.  
     </p>
   </section>
 
